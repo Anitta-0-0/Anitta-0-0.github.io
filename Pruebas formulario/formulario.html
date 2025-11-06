@@ -3,11 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <META HTTP-EQUIV="REFRESH" CONTENT="5;URL=http://www.google.es"> 
+    <!-- <META HTTP-EQUIV="REFRESH" CONTENT="5;URL=http://www.google.es"> --> 
 
     <title>FORMULARIO</title>
 </head>
 <body>
     <h1>Formulario</h1>
+
+    <form action="https://ncoge.com/phps/formulario.php" method="post">
+        Nombre: <input type="text" name="Nombre usuario"> 
+        <br>
+        Password: <input type="password" name="Password"> 
+        <br>
+        Puesto de trabajo: <br>
+        <input name="puesto_directivo" type="checkbox" value="direccion"/> Dirección
+        <input name="puesto_tecnico" type="checkbox" value="tecnico"/> Técnico
+        <input name="puesto_empleado" type="checkbox" value="empleado"/> Empleado
+        <br>
+        Desayuno: <br>
+        <input type="radio" name="Café" value="Café"/> Café
+        <input type="radio" name="Té" value="Té"/> Té
+        <input type="radio" name="Chocolate" value="Chocolate"/> Chocolate
+        <br>
+        Sexo: <br>
+        <input type="radio" name="sexo" value="hombre" checked="checked" /> Hombre
+        <input type="radio" name="sexo" value="mujer" /> Mujer
+        <br>
+        <input type="reset" name="limpiar" value="Borrar datos del formulario" />
+        <br>
+        <input type="submit" value="SUBMIT"> <br>
+    </form>
 </body>
 </html>
