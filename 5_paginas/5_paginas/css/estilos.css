@@ -19,8 +19,8 @@ h1 {
 
 /*Borde negro redondeado, junto al sombreado de la img: x y sombreado color*/
 img {
-    border: 5px solid black;
-    border-radius: 8px solid black;
+    border: 7px solid black;
+    border-radius: 12px;
     box-shadow: 0 0 10px black;
 }
 
