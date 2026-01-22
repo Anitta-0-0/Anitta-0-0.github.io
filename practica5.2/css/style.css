@@ -1,0 +1,218 @@
+*{
+  margin: 0px auto;
+  font-style: italic;
+}
+
+body{
+    text-align: center;
+    background: url("/img/fondo.jpg");
+    background-attachment: fixed; /*todo todo*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#header{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    color: pink;
+    border: 4px solid pink;
+    border-radius: 8px;
+    margin-right: 1400px;
+}
+
+ul{
+    list-style: none;
+
+}
+
+li{
+    display: inline;
+    padding-left: 50px;
+}
+
+#menu{
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    background: grey;
+    height: 20px;
+}
+
+
+#menu a{
+    color: white;
+    text-decoration-line: none;
+}
+
+#menu a:hover{
+    background: pink;
+}
+
+#cookieEU{
+    position: absolute;
+    top: 30%;
+    right: 15%;
+    left: 15%;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 15px;
+    background: rgb(236, 195, 195);
+}
+
+.button{
+    margin-top: 20px;
+    display: inline-block; /*aaaaa*/
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.button:hover {
+    color: rgb(243, 7, 7); /*??*/
+}
+
+#content{
+    border: 5px solid grey;
+    border-radius: 10px;
+    background: rgb(235, 219, 184);
+}
+
+#textMain{
+    margin-top: 20px;
+    border: 5px solid grey;
+    border-style: double;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+#textCookie{
+    text-align: center;
+    margin-top: 15px;
+}
+
+#textCookie a{
+    color: rgb(12, 11, 11);
+    padding-bottom: 5px;
+}
+
+#texto h2{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 4px solid pink;
+    border-radius: 8px;
+    border-style:ridge;
+    text-decoration-line: none;
+}
+
+#primero{
+    border: 5px solid grey;
+    width: 90%;
+    margin-top: 5%;
+    border-style: double;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.izquierda{
+    float: left;
+    width: 100px;
+    border: 4px solid pink;
+    border-radius: 15px;
+    margin-left: 5px;
+}
+
+#primero p{
+    margin-left: 150px;
+    padding: 20px;
+}
+
+#segundo{
+    border: 5px solid grey;
+    width: 90%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-style: double;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.derecha{
+    float: right;
+    width: 100px;
+    border: 4px solid pink;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+
+#segundo p{
+    margin-right: 170px;
+    padding: 20px;
+}
+
+#redes{
+    position: absolute;
+    right: 5%;
+    top: 390px;
+    width: 80px;
+}
+
+#redes img{
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+#footer{
+    position: fixed;
+    width: 100%;
+    bottom:0%;
+    background: grey;
+    height: 20px;
+}
+
+#footer p{
+    color: white;
+}
+
+#footer a{
+    color: blue;
+}
+
+#footer a:hover{
+    color: red;
+}
+
+@media screen and (max-width: 768px){
+
+    #redes{
+        position: static;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #redes li{
+        display: inline;
+        padding: 10px;
+    }
+
+    .izquierda, .derecha{
+        float: none;
+        display: block;
+        margin: 10px auto;
+    }
+}
+
+
