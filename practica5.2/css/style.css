@@ -16,11 +16,12 @@ body{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 20px;
-    color: pink;
+    margin-left: 500px;
+    margin-right: 500px;
+    color: black;
     border: 4px solid pink;
     border-radius: 8px;
-    padding: 10px;
+    background: rgb(235, 219, 184);
 }
 
 ul{
