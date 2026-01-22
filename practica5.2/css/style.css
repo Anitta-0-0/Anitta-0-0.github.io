@@ -5,7 +5,7 @@
 
 body{
     text-align: center;
-    background: url("\img\fondo.jpg");
+    background: url("/practica5.2/img/fondo.jpg");
     background-attachment: fixed; /*todo todo*/
     background-repeat: no-repeat;
     background-position: center;
